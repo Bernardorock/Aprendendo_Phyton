@@ -1,0 +1,13 @@
+numero = int(input('insira o númro para a transformação \n'))
+concatenar = ''
+
+while numero/2 > 0:
+    coletando = numero%2
+    numero = numero//2
+    concatenar = concatenar+(str(coletando))
+    
+variavel_int = int(concatenar)
+for i in range(len(concatenar)):
+    binario = variavel_int%10
+    variavel_int = variavel_int//10
+    print(f'{binario}', end="")
