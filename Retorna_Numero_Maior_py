@@ -1,0 +1,10 @@
+numero = int(input('insira o número \n'))
+n = 0
+
+while numero > 0:
+    if numero > n:
+        print(f'O numero maior é {numero}')
+        n = numero
+    else:
+        print(f'O número maior continua sendo {n}')
+    numero = int(input('insira outro número à comparar \n'))
