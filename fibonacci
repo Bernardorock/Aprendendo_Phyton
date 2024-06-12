@@ -1,0 +1,6 @@
+x = 1
+fibo = (x+(x-1))
+while fibo < 999:
+    print(fibo, end=' ')
+    fibo = fibo + x
+    x = fibo - x
